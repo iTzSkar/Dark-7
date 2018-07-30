@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = 'برفكس'
+const prefix = '1'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
