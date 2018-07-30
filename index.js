@@ -14,11 +14,7 @@ client.on('message', msg => {
 
 
 client.on('message', message => {
-  if (message.content.startsWith('play')) {
-    const voiceChannel = message.member.voiceChannel;
-    voiceChannel.join()
-      });
-  } else if(message.content.startsWith(prefix + "join")) {
+ if(message.content.startsWith(prefix + "join")) {
 message.member.voiceChannel.join();
 }
 });
