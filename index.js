@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '@.Savage'
+const prefix = '.'
 
 console.log("Welcome Savage.");
  
